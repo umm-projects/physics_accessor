@@ -67,6 +67,7 @@ public class Hoge : MonoBehaviour, IRigidbody2DAccessor {
 | `　　IWheelJoint2DAccessor` | `WheelJoint2D()` |
 
 * 階層的に上位に居るインタフェースは下位のインタフェースが提供するアクセサを全て含有します
+* `AccessorUtility` を using することで拡張メソッドが提供されます。
 
 # License
 
