@@ -77,6 +77,15 @@ namespace AccessorUtility {
     public static class PhysicsAccessorExtension {
 
         /// <summary>
+        /// Rigidbody の疑似アクセサ
+        /// </summary>
+        /// <param name="self">IRigidbodyAccessor のインスタンス</param>
+        /// <returns>Rigidbody のインスタンス</returns>
+        public static Rigidbody Rigidbody(this IRigidbodyAccessor self) {
+            return GetAndCacheComponent<Rigidbody>(self as MonoBehaviour);
+        }
+
+        /// <summary>
         /// BoxCollider の疑似アクセサ
         /// </summary>
         /// <param name="self">IBoxColliderAccessor のインスタンス</param>
@@ -173,6 +182,15 @@ namespace AccessorUtility {
         /// <returns>SpringJoint のインスタンス</returns>
         public static SpringJoint SpringJoint(this ISpringJointAccessor self) {
             return GetAndCacheComponent<SpringJoint>(self as MonoBehaviour);
+        }
+
+        /// <summary>
+        /// Rigidbody2D の疑似アクセサ
+        /// </summary>
+        /// <param name="self">IRigidbody2DAccessor のインスタンス</param>
+        /// <returns>Rigidbody2D のインスタンス</returns>
+        public static Rigidbody2D Rigidbody2D(this IRigidbody2DAccessor self) {
+            return GetAndCacheComponent<Rigidbody2D>(self as MonoBehaviour);
         }
 
         /// <summary>
