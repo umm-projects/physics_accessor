@@ -9,7 +9,7 @@
 # Install
 
 ```shell
-$ npm install @umm/physics_accessor
+$ npm install github:umm-projects/physics_accessor.git
 ```
 
 # Usage
