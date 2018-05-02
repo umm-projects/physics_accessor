@@ -9,7 +9,7 @@
 # Install
 
 ```shell
-$ npm install github:umm-projects/physics_accessor.git
+yarn add "umm-projects/physics_accessor#^1.0.0"
 ```
 
 # Usage
