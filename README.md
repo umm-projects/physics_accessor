@@ -9,7 +9,7 @@
 # Install
 
 ```shell
-yarn add "umm-projects/physics_accessor#^1.0.0"
+yarn add "umm/physics_accessor#^1.0.0"
 ```
 
 # Usage
