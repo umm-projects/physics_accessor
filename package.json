@@ -1,6 +1,6 @@
 {
   "name": "@umm/physics_accessor",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Provide accessor for Physics/Physics2D",
   "homepage": "https://github.com/umm/physics_accessor",
   "bugs": {
